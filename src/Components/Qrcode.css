@@ -1,0 +1,83 @@
+
+*{
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+}
+
+.app-container{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+  img{
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+  }
+  .input-label{
+    display: block;
+    margin: 5px;
+    color: chocolate;
+    font-size: 15px;
+
+  }
+
+  input{
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    font-size: 15PX;
+    width: 100%;
+    border: 2PX solid black;
+  }
+
+  button{
+    padding: 15px 20px;
+    font-size: 18px;
+    margin-right: 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: lightgray;
+    transition: background-color 0.3s;
+  }
+  .generateButton:disabled{
+    background-color: lightgray;
+    cursor: not-allowed;
+  }
+  .generateButton:hover{
+    background-color: gray;
+   
+  }
+
+  .generateButton{
+    background-color:lightsteelblue; ;
+  }
+
+  .downloadButton{
+    background-color: lightgreen;
+  }
+  .downloadButton:hover{
+    background-color: green;
+  }
+
+  h1{
+    font-size: 18px;
+    
+    font-weight: 600;
+    color:blue;
+    border-bottom: 3px solid lightblue;
+    padding: 10px 0px;
+  }
+
+p{
+    margin-top: 30px;
+}
+
+
+}
